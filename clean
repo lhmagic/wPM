@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# fileArray=(*.DRC *.DSNlck *.DBK *.dml *.log *.lck *.lst
+# 		   *.dat *[0-9] allegro.jrl signoise.run stepFacetFiles4Map)
+
+# for data in ${fileArray[@]}
+# do
+# find . -name "${data}" -exec rm -rf {} \;
+# echo "remove ${data}"
+# done
+
+awk '!/#/' .gitignore | while read line
+do
+	if [ "$line" != "" ] ;then
+		file=($line)
+		find . -name "${file}" -exec rm -rf {} \;
+		echo "remove ${file}"
+	fi
+done

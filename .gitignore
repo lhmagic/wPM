@@ -1,0 +1,19 @@
+#Cadence orCad & Allegro file filter.
+
+
+*.DRC
+*.DSNlck
+*.DBK
+*.OBK
+*.dml
+*.log
+*.tag
+*.lck
+*.lst
+*.dat
+*.*[0-9]
+
+allegro.jrl
+
+signoise.run/
+stepFacetFiles4Map/
