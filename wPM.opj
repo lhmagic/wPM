@@ -9,7 +9,7 @@
         (Type "Schematic Library"))
       (File "C:\Cadence\SPB_17.0\tools\capture\LIBRARY\Discrete.olb"
         (Type "Schematic Library"))
-      (File "d:\project\spb_data\libs\orcad\primary.olb"
+      (File "..\spb_data\libs\orcad\primary.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\wpm.dsn"
@@ -20,6 +20,34 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (GND_SIGNAL
+      (LibraryName "C:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ANT
+      (FullPartName "ANT.Normal")
+      (LibraryName "D:\PROJECT\SPB_DATA\LIBS\ORCAD\PRIMARY.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (STM8L151K4
+      (FullPartName "STM8L151K4.Normal")
+      (LibraryName "D:\PROJECT\SPB_DATA\LIBS\ORCAD\PRIMARY.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL
+      (FullPartName "CRYSTAL.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MOSFET-N
+      (FullPartName "MOSFET-N.Normal")
+      (LibraryName "D:\PROJECT\SPB_DATA\LIBS\ORCAD\PRIMARY.OLB")
+      (DeviceIndex "0"))
     ("DIODE ZENER"
       (FullPartName "DIODE ZENER.Normal")
       (LibraryName "C:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -47,21 +75,17 @@
     (BATTERY
       (FullPartName "BATTERY.Normal")
       (LibraryName "C:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (STM8L151K4
-      (FullPartName "STM8L151K4.Normal")
-      (LibraryName "D:\PROJECT\SPB_DATA\LIBS\ORCAD\PRIMARY.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "Administrator")
   (LastUsedLibraryBrowseDirectory "D:\Project\SPB_Data\libs\orcad")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "D:\TEMP\wPM\wpm.dsn")
-      (Path "Design Resources" "D:\TEMP\wPM\wpm.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\wpm.dsn")
+      (Path "Design Resources" ".\wpm.dsn" "wPM")
+      (Path "Design Resources" ".\wpm.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "d:\project\spb_data\libs\orcad\primary.olb"))
+      (Select "Design Resources" ".\wpm.dsn" "Design Cache"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -71,32 +95,10 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 25 1395 25 394")
-        (Scroll "-167 -4")
-        (Zoom "89")
+        (Placement "44 2 3 -1 -1 -8 -30 75 1374 75 531")
+        (Scroll "466 512")
+        (Zoom "178")
         (Occurrence "/"))
-      (Path "D:\TEMP\WPM\WPM.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "00_Description"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 1080 75 531")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "234 0")
-        (Zoom "176"))
-      (Path "D:\PROJECT\SPB_DATA\LIBS\ORCAD\PRIMARY.OLB")
-      (Package "STM8L151K4"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 608 100 534")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "255 189")
-        (Zoom "252"))
-      (Path "D:\PROJECT\SPB_DATA\LIBS\ORCAD\PRIMARY.OLB")
-      (Package "RF4432"))))
+      (Path "D:\PROJECT\WPM\WPM.DSN")
+      (Schematic "wPM")
+      (Page "00_Description"))))
