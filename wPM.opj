@@ -20,6 +20,14 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MOSFET-P
+      (FullPartName "MOSFET-P.Normal")
+      (LibraryName "D:\PROJECT\SPB_DATA\LIBS\ORCAD\PRIMARY.OLB")
+      (DeviceIndex "0"))
     (GND_SIGNAL
       (LibraryName "C:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -81,11 +89,12 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\wpm.dsn")
-      (Path "Design Resources" ".\wpm.dsn" "wPM")
-      (Path "Design Resources" ".\wpm.dsn" "Design Cache")
-      (Path "Design Resources" "Library")
-      (Select "Design Resources" ".\wpm.dsn" "Design Cache"))
+      (Path "Design Resources" "C:\Users\Administrator\Desktop\wPM\wpm.dsn")
+      (Path "Design Resources" "C:\Users\Administrator\Desktop\wPM\wpm.dsn"
+         "wPM")
+      (Path "Design Resources" "C:\Users\Administrator\Desktop\wPM\wpm.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -95,10 +104,10 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 75 1374 75 531")
-        (Scroll "466 512")
-        (Zoom "178")
+        (Placement "44 2 3 -1 -1 -8 -30 50 1698 50 528")
+        (Scroll "-158 0")
+        (Zoom "127")
         (Occurrence "/"))
-      (Path "D:\PROJECT\WPM\WPM.DSN")
+      (Path "C:\USERS\ADMINISTRATOR\DESKTOP\WPM\WPM.DSN")
       (Schematic "wPM")
-      (Page "00_Description"))))
+      (Page "01_WPM"))))
