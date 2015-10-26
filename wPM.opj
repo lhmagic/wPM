@@ -74,8 +74,8 @@
     ("Allegro Netlist Directory" "allegro")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
-    ("Update Allegro Board" "TRUE")
-    ("Allegro Netlist Output Board File" "allegro\WPM.brd")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\WBM.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -91,7 +91,16 @@
     (File ".\wpm.csv"
       (Type "Report"))
     (File ".\wpm.drc"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (TitleBlock0
@@ -184,19 +193,19 @@
       (Path "Design Resources" ".\wpm.dsn" "wPM")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" "Library" "..\spb_data\libs\orcad\primary.olb"))
+      (Select "Design Resources" ".\wpm.dsn" "wPM" "01_Main_Schmetic"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 25 1320 25 512"))
+        (Placement "44 0 1 -1 -1 -8 -30 25 1320 25 512"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1345 50 537")
-        (Scroll "0 209")
-        (Zoom "108")
+        (Placement "44 2 3 -1 -1 -8 -30 50 1345 50 537")
+        (Scroll "-197 -2")
+        (Zoom "70")
         (Occurrence "/"))
       (Path "C:\USERS\ADMINISTRATOR\DESKTOP\WPM\WPM.DSN")
       (Schematic "wPM")

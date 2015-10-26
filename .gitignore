@@ -10,7 +10,6 @@
 *.tag
 *.lck
 *.lst
-*.dat
 *.*[0-9]
 
 allegro.jrl
