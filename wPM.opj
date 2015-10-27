@@ -203,9 +203,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 1345 50 537")
-        (Scroll "-197 -2")
-        (Zoom "70")
+        (Placement "44 0 1 -1 -1 -8 -30 50 1345 50 537")
+        (Scroll "0 56")
+        (Zoom "140")
         (Occurrence "/"))
       (Path "C:\USERS\ADMINISTRATOR\DESKTOP\WPM\WPM.DSN")
       (Schematic "wPM")
