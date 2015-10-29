@@ -189,11 +189,12 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\wpm.dsn")
-      (Path "Design Resources" ".\wpm.dsn" "wPM")
+      (Path "Design Resources" "c:\users\administrator\desktop\wpm\wpm.dsn")
+      (Path "Design Resources" "c:\users\administrator\desktop\wpm\wpm.dsn"
+         "wPM")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\wpm.dsn" "wPM" "01_Main_Schmetic"))
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
