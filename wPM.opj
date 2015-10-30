@@ -103,6 +103,10 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("HEADER 1"
+      (FullPartName "HEADER 1.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (TitleBlock0
       (LibraryName "C:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -189,12 +193,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "c:\users\administrator\desktop\wpm\wpm.dsn")
-      (Path "Design Resources" "c:\users\administrator\desktop\wpm\wpm.dsn"
-         "wPM")
+      (Path "Design Resources" ".\wpm.dsn")
+      (Path "Design Resources" ".\wpm.dsn" "wPM")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources" ".\wpm.dsn" "wPM" "01_Main_Schmetic"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -205,8 +208,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 1345 50 537")
-        (Scroll "0 56")
-        (Zoom "140")
+        (Scroll "-91 0")
+        (Zoom "70")
         (Occurrence "/"))
       (Path "C:\USERS\ADMINISTRATOR\DESKTOP\WPM\WPM.DSN")
       (Schematic "wPM")
