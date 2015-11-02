@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.0.0 d001Oct-30-2015 at 11:12:53}
+{ Using PSTWRITER 17.0.0 d001Nov-02-2015 at 22:10:36}
 primitive 'HEADER 1_ANT1_ANT';
   pin
     '1':

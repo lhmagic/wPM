@@ -197,19 +197,19 @@
       (Path "Design Resources" ".\wpm.dsn" "wPM")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\wpm.dsn" "wPM" "01_Main_Schmetic"))
+      (Select "Design Resources" ".\wpm.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 25 1320 25 512"))
+        (Placement "44 2 3 -1 -1 -8 -30 25 1320 25 512"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 1345 50 537")
-        (Scroll "-91 0")
-        (Zoom "70")
+        (Scroll "2201 4161")
+        (Zoom "560")
         (Occurrence "/"))
       (Path "C:\USERS\ADMINISTRATOR\DESKTOP\WPM\WPM.DSN")
       (Schematic "wPM")
